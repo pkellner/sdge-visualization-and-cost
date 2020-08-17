@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { sdgeChartData } from "../utils/sample-data";
 
 const ChartPage = () => {
@@ -36,7 +36,7 @@ const ChartPage = () => {
 
   const offPeak = 0.29;
   const superOffPeak = 0.09;
-  const peak = 0.5;
+  const peak = 0.50;
 
   return (
     <div>
